@@ -1,0 +1,26 @@
+{
+  "forms": {
+    "inquiry": {
+      "title": "Request Information",
+      "userType": {
+        "label": "I am a",
+        "individual": "Individual",
+        "business": "Business",
+        "public": "Public Sector"
+      },
+      "fullName": "Full Name",
+      "businessName": "Business Name",
+      "organizationName": "Organization Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "businessType": "Business Type",
+      "department": "Department",
+      "service": "Service of Interest",
+      "select": "Select an option",
+      "subsidyInfo": "Available Subsidies",
+      "requestSubsidy": "I would like to receive information about available subsidies",
+      "submit": "Submit Request",
+      "success": "Thank you for your inquiry! We will review your information and contact you shortly. If you requested information about subsidies, our team will provide details on eligible funding options."
+    }
+  }
+}

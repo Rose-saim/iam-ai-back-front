@@ -1,0 +1,209 @@
+{
+  "common": {
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "explore": "Explorer",
+    "learnMore": "En savoir plus",
+    "contact": "Contactez-nous",
+    "getStarted": "Commencer",
+    "submit": "Envoyer",
+    "back": "Retour",
+    "next": "Suivant",
+    "search": "Rechercher",
+    "menu": "Menu"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "courses": "Cours",
+    "resources": "Ressources",
+    "about": "À propos",
+    "contact": "Contact",
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "title": "I AM'AI",
+      "subtitle": "Libérez la puissance de l'intelligence artificielle",
+      "cta": "Commencer votre parcours"
+    },
+    "features": {
+      "title": "Nos Services",
+      "subtitle": "Solutions complètes pour votre transformation numérique"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions d'IA adaptées à vos besoins",
+    "b2b": {
+      "title": "Solutions Entreprises",
+      "subtitle": "Transformez votre entreprise avec nos solutions IA complètes",
+      "features": {
+        "training": "Formation du Personnel",
+        "tools": "Modernisation des Outils",
+        "management": "Gestion du Changement"
+      },
+      "cta": "Découvrir nos solutions entreprises",
+      "learnMore": {
+        "title": "Transformez Votre Entreprise",
+        "subtitle": "Solutions IA complètes pour le succès de votre entreprise",
+        "features": {
+          "integration": "Intégration Entreprise",
+          "empowerment": "Autonomisation des Équipes",
+          "strategy": "Mise en œuvre Stratégique"
+        }
+      }
+    },
+    "b2c": {
+      "title": "Formation Individuelle",
+      "subtitle": "Maîtrisez l'IA avec des programmes personnalisés",
+      "features": {
+        "courses": "Cours Personnalisés",
+        "toolkits": "Boîtes à Outils",
+        "resources": "Ressources d'Apprentissage"
+      },
+      "cta": "Explorer nos formations",
+      "learnMore": {
+        "title": "Développez Vos Compétences",
+        "subtitle": "Programmes d'apprentissage personnalisés en IA",
+        "features": {
+          "learning": "Apprentissage Personnalisé",
+          "skills": "Compétences Pratiques",
+          "certification": "Certification Reconnue"
+        }
+      }
+    },
+    "b2g": {
+      "title": "Services Publics",
+      "subtitle": "Solutions IA innovantes pour le secteur public",
+      "features": {
+        "municipal": "Services Municipaux",
+        "employment": "Formation à l'Emploi",
+        "advisory": "Services Consultatifs"
+      },
+      "cta": "Découvrir nos services publics",
+      "learnMore": {
+        "title": "Innovez les Services Publics",
+        "subtitle": "Solutions IA pour la transformation du secteur public",
+        "features": {
+          "smartCity": "Solutions Ville Intelligente",
+          "engagement": "Engagement Citoyen",
+          "policy": "Cadre Politique"
+        }
+      }
+    }
+  },
+  "courses": {
+    "title": "Nos Cours",
+    "subtitle": "Programmes de formation en IA",
+    "filters": {
+      "all": "Tous les cours",
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    },
+    "search": "Rechercher des cours...",
+    "duration": "Durée",
+    "level": "Niveau",
+    "enrolled": "Inscrits",
+    "rating": "Note"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Accédez à votre espace personnel",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "createAccount": "Créer un compte",
+      "or": "ou"
+    },
+    "register": {
+      "business": {
+        "title": "Créer un Compte Entreprise",
+        "subtitle": "Commencez avec les solutions IA pour votre entreprise",
+        "companyName": "Nom de l'entreprise",
+        "industry": "Secteur d'activité",
+        "companySize": "Taille de l'entreprise",
+        "email": "Email professionnel",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      },
+      "individual": {
+        "title": "Créer un Compte Personnel",
+        "subtitle": "Commencez votre parcours d'apprentissage IA",
+        "fullName": "Nom complet",
+        "email": "Adresse email",
+        "interests": "Centres d'intérêt",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      },
+      "public": {
+        "title": "Créer un Compte Service Public",
+        "subtitle": "Commencez avec les solutions IA pour les services publics",
+        "orgName": "Nom de l'organisation",
+        "department": "Département",
+        "role": "Fonction",
+        "email": "Email professionnel",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      },
+      "expert": {
+        "title": "Rejoindre Notre Équipe d'Experts",
+        "subtitle": "Partagez votre expertise en IA",
+        "fullName": "Nom complet",
+        "email": "Email professionnel",
+        "expertise": "Domaines d'expertise",
+        "experience": "Années d'expérience",
+        "certifications": "Certifications",
+        "languages": "Langues",
+        "availability": "Disponibilité",
+        "linkedin": "Profil LinkedIn",
+        "github": "Profil GitHub",
+        "portfolio": "Site web portfolio",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmer le mot de passe"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "overview": "Aperçu",
+    "stats": {
+      "progress": "Progression",
+      "completed": "Terminé",
+      "active": "Actif",
+      "pending": "En attente"
+    },
+    "actions": {
+      "viewAll": "Voir tout",
+      "continue": "Continuer",
+      "start": "Commencer"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est là pour vous aider",
+    "form": {
+      "fullName": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Message envoyé avec succès"
+    }
+  },
+  "footer": {
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    },
+    "copyright": "© 2024 I AM'AI. Tous droits réservés."
+  }
+}

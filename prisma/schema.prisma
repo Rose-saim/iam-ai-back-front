@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Users
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  passwordHash  String
+  role          String    // 'expert', 'student', 'admin'
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  profile       Profile?
+  expertProfile ExpertProfile?
+  sessions      Session[]
+  messages      Message[]
+  courses       Course[]
+  missions      Mission[]
+}
+
+model Profile {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  firstName String?
+  lastName  String?
+  avatar    String?
+  bio       String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ExpertProfile {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id])
+  expertise      String[]
+  certifications String[]
+  rating         Float    @default(0)
+  availability   Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+// Authentication
+model Session {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+// Messaging
+model Message {
+  id        String   @id @default(uuid())
+  content   String
+  senderId  String
+  sender    User     @relation(fields: [senderId], references: [id])
+  chatId    String
+  chat      Chat     @relation(fields: [chatId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model Chat {
+  id        String    @id @default(uuid())
+  messages  Message[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+// Courses and Training
+model Course {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  expertId    String
+  expert      User     @relation(fields: [expertId], references: [id])
+  price       Float
+  duration    String
+  level       String
+  materials   Json[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Missions
+model Mission {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  expertId    String
+  expert      User     @relation(fields: [expertId], references: [id])
+  status      String   // 'pending', 'in-progress', 'completed'
+  startDate   DateTime
+  endDate     DateTime
+  budget      Float
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

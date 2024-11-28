@@ -41,16 +41,16 @@ import ChangeManagement from './pages/services/details/ChangeManagement';
 import AITraining from './pages/services/details/AITraining';
 
 // Business Dashboard Pages
-import BusinessTraining from './pages/dashboard/business/BusinessTraining';
-import TeamManagement from './pages/dashboard/business/TeamManagement';
-import AITools from './pages/dashboard/business/AITools';
-import BusinessMetrics from './pages/dashboard/business/BusinessMetrics';
+import BusinessTraining from './pages/Dashboard/business/BusinessTraining';
+import TeamManagement from './pages/Dashboard/business/TeamManagement';
+import AITools from './pages/Dashboard/business/AITools';
+import BusinessMetrics from './pages/Dashboard/business/BusinessMetrics';
 
 // Individual Dashboard Pages
-import MyCourses from './pages/dashboard/individual/MyCourses';
-import Certifications from './pages/dashboard/individual/Certifications';
-import LearningPath from './pages/dashboard/individual/LearningPath';
-import Community from './pages/dashboard/individual/Community';
+import MyCourses from './pages/Dashboard/individual/MyCourses';
+import Certifications from './pages/Dashboard/individual/Certifications';
+import LearningPath from './pages/Dashboard/individual/LearningPath';
+import Community from './pages/Dashboard/individual/Community';
 
 // Payment and Checkout Pages
 import Checkout from './pages/payment/Checkout';
@@ -120,7 +120,7 @@ import ExpertEarnings from './pages/expert/ExpertEarnings';
 import NotFound from './pages/error/NotFound';
 import ServerError from './pages/error/ServerError';
 import Maintenance from './pages/error/Maintenance';
-import BusinessDashboard from './components/dashboard/BusinessDashboard';
+import BusinessDashboard from './components/dashboard/business/BusinessDashboard';
 import IndividualDashboard from './components/dashboard/IndividualDashboard';
 import ExpertDashboard from './components/dashboard/ExpertDashboard';
 

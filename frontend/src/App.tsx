@@ -22,14 +22,12 @@ import SelectAccountType from './components/SelectAccountType';
 
 // Admin Pages
 import AdminLogin from './pages/admin/AdminLogin';
-import Admindashboard from './pages/admin/Admindashboard';
+import Admindashboard from './pages/admin/AdminDashboard';
 import AdminSettings from './pages/admin/AdminSettings';
 import AdminReports from './pages/admin/AdminReports';
 import AdminNotifications from './pages/admin/AdminNotifications';
 import SystemSettings from './pages/admin/SystemSettings';
 
-// dashboard Pages
-import dashboard from './pages/dashboard';
 
 // Service Pages
 import B2B from './pages/services/B2B';

@@ -120,7 +120,7 @@ import ExpertEarnings from './pages/expert/ExpertEarnings';
 import NotFound from './pages/error/NotFound';
 import ServerError from './pages/error/ServerError';
 import Maintenance from './pages/error/Maintenance';
-import Businessdashboard from './components/dashboard/business/Businessdashboard';
+import Businessdashboard from './components/dashboard/business/BusinessDashboard';
 import Individualdashboard from './components/dashboard/Individualdashboard';
 import Expertdashboard from './components/dashboard/Expertdashboard';
 

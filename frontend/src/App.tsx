@@ -38,22 +38,22 @@ import IndustryToolkits from './pages/services/details/IndustryToolkits';
 import ChangeManagement from './pages/services/details/ChangeManagement';
 import AITraining from './pages/services/details/AITraining';
 
-// Business dashboard Pages
-import BusinessTraining from './pages/dashboard/business/BusinessTraining';
-import TeamManagement from './pages/dashboard/business/TeamManagement';
-import AITools from './pages/dashboard/business/AITools';
-import BusinessMetrics from './pages/dashboard/business/BusinessMetrics';
+// // Business dashboard Pages
+// import BusinessTraining from './pages/dashboard/business/BusinessTraining';
+// import TeamManagement from './pages/dashboard/business/TeamManagement';
+// import AITools from './pages/dashboard/business/AITools';
+// import BusinessMetrics from './pages/dashboard/business/BusinessMetrics';
 
-// Individual dashboard Pages
-import MyCourses from './pages/dashboard/individual/MyCourses';
-import Certifications from './pages/dashboard/individual/Certifications';
-import LearningPath from './pages/dashboard/individual/LearningPath';
-import Community from './pages/dashboard/individual/Community';
+// // Individual dashboard Pages
+// import MyCourses from './pages/dashboard/individual/MyCourses';
+// import Certifications from './pages/dashboard/individual/Certifications';
+// import LearningPath from './pages/dashboard/individual/LearningPath';
+// import Community from './pages/dashboard/individual/Community';
 
-// Payment and Checkout Pages
-import Checkout from './pages/payment/Checkout';
-import PaymentSuccess from './pages/payment/PaymentSuccess';
-import PaymentCancel from './pages/payment/PaymentCancel';
+// // Payment and Checkout Pages
+// import Checkout from './pages/payment/Checkout';
+// import PaymentSuccess from './pages/payment/PaymentSuccess';
+// import PaymentCancel from './pages/payment/PaymentCancel';
 
 // Terms and Privacy Pages
 import Terms from './pages/Terms';
@@ -68,9 +68,9 @@ import CourseDetail from './pages/courses/CourseDetail';
 // Certificate Pages
 import CertificateView from './pages/certificates/CertificateView';
 
-// Profile Pages
-import UserProfile from './pages/profile/UserProfile';
-import ProfileSettings from './pages/profile/ProfileSettings';
+// // Profile Pages
+// import UserProfile from './pages/profile/UserProfile';
+// import ProfileSettings from './pages/profile/ProfileSettings';
 
 // Help & Support Pages
 import Help from './pages/help/Help';
@@ -91,36 +91,36 @@ import EnrollmentForm from './pages/enrollment/EnrollmentForm';
 // Project Pages
 import ProjectDetail from './pages/projects/ProjectDetail';
 
-// Student Pages
-import Studentdashboard from './pages/student/Studentdashboard';
-import StudentCourses from './pages/student/StudentCourses';
-import StudentProgress from './pages/student/StudentProgress';
-import StudentCertificates from './pages/student/StudentCertificates';
+// // Student Pages
+// import Studentdashboard from './pages/student/Studentdashboard';
+// import StudentCourses from './pages/student/StudentCourses';
+// import StudentProgress from './pages/student/StudentProgress';
+// import StudentCertificates from './pages/student/StudentCertificates';
 
-// Expert Pages
-import ExpertMissions from './pages/expert/ExpertMissions';
-import ExpertTrainings from './pages/expert/ExpertTrainings';
-import ExpertCalendar from './pages/expert/ExpertCalendar';
-import ExpertAnalytics from './pages/expert/ExpertAnalytics';
-import ExpertMessaging from './pages/expert/ExpertMessaging';
-import ExpertProfile from './pages/expert/ExpertProfile';
-import ExpertFinance from './pages/expert/ExpertFinance';
-import ExpertSupport from './pages/expert/ExpertSupport';
-import ExpertSettings from './pages/expert/ExpertSettings';
-import ExpertReports from './pages/expert/ExpertReports';
-import ExpertFeedback from './pages/expert/ExpertFeedback';
-import ExpertCommunity from './pages/expert/ExpertCommunity';
-import ExpertCourses from './pages/expert/ExpertCourses';
-import ExpertReviews from './pages/expert/ExpertReviews';
-import ExpertEarnings from './pages/expert/ExpertEarnings';
+// // Expert Pages
+// import ExpertMissions from './pages/expert/ExpertMissions';
+// import ExpertTrainings from './pages/expert/ExpertTrainings';
+// import ExpertCalendar from './pages/expert/ExpertCalendar';
+// import ExpertAnalytics from './pages/expert/ExpertAnalytics';
+// import ExpertMessaging from './pages/expert/ExpertMessaging';
+// import ExpertProfile from './pages/expert/ExpertProfile';
+// import ExpertFinance from './pages/expert/ExpertFinance';
+// import ExpertSupport from './pages/expert/ExpertSupport';
+// import ExpertSettings from './pages/expert/ExpertSettings';
+// import ExpertReports from './pages/expert/ExpertReports';
+// import ExpertFeedback from './pages/expert/ExpertFeedback';
+// import ExpertCommunity from './pages/expert/ExpertCommunity';
+// import ExpertCourses from './pages/expert/ExpertCourses';
+// import ExpertReviews from './pages/expert/ExpertReviews';
+// import ExpertEarnings from './pages/expert/ExpertEarnings';
 
 // Error Pages
 import NotFound from './pages/error/NotFound';
 import ServerError from './pages/error/ServerError';
 import Maintenance from './pages/error/Maintenance';
-import Businessdashboard from './components/dashboard/business/BusinessDashboard';
-import Individualdashboard from './components/dashboard/Individualdashboard';
-import Expertdashboard from './components/dashboard/Expertdashboard';
+// import Businessdashboard from './components/dashboard/business/BusinessDashboard';
+// import Individualdashboard from './components/dashboard/Individualdashboard';
+// import Expertdashboard from './components/dashboard/Expertdashboard';
 
 export default function App() {
   return (
@@ -137,28 +137,28 @@ export default function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/careers" element={<Careers />} />
 
-          {/* Authentication Routes */}
+          {/* Authentication Routes
           <Route path="/register-business" element={<RegisterBusiness />} />
           <Route path="/register-individual" element={<RegisterIndividual />} />
           <Route path="/register-expert" element={<RegisterExpert />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/select-account-type" element={<SelectAccountType />} />
+          <Route path="/select-account-type" element={<SelectAccountType />} /> */}
 
-          {/* Admin Routes */}
+          {/* Admin Routes
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin/dashboard" element={<Admindashboard />} />
           <Route path="/admin/settings" element={<AdminSettings />} />
           <Route path="/admin/reports" element={<AdminReports />} />
           <Route path="/admin/notifications" element={<AdminNotifications />} />
-          <Route path="/admin/system" element={<SystemSettings />} />
+          <Route path="/admin/system" element={<SystemSettings />} /> */}
 
-          {/* dashboard Routes */}
+          {/* dashboard Routes
           <Route path="/dashboard" element={<dashboard />} />
 
           <Route path="/dashboard/business" element={<Businessdashboard />} />
           <Route path="/dashboard/individual" element={<Individualdashboard />} />
           <Route path="/dashboard/expert" element={<Expertdashboard/>} />
-          
+           */}
           {/* Service Routes */}
           <Route path="/services/b2b" element={<B2B />} />
           <Route path="/services/b2c" element={<B2C />} />
@@ -172,22 +172,22 @@ export default function App() {
           <Route path="/services/b2c/aitraining" element={<AITraining />} />
           <Route path="/services/b2c/resources" element={<Resources />} />
 
-          {/* Business dashboard Routes */}
+          {/* Business dashboard Routes
           <Route path="/dashboard/training" element={<BusinessTraining />} />
           <Route path="/dashboard/team" element={<TeamManagement />} />
           <Route path="/dashboard/tools" element={<AITools />} />
-          <Route path="/dashboard/metrics" element={<BusinessMetrics />} />
+          <Route path="/dashboard/metrics" element={<BusinessMetrics />} /> */}
 
-          {/* Individual dashboard Routes */}
+          {/* Individual dashboard Routes
           <Route path="/dashboard/courses" element={<MyCourses />} />
           <Route path="/dashboard/certifications" element={<Certifications />} />
           <Route path="/dashboard/progress" element={<LearningPath />} />
-          <Route path="/dashboard/community" element={<Community />} />
+          <Route path="/dashboard/community" element={<Community />} /> */}
 
-          {/* Payment Routes */}
+          {/* Payment Routes
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment/success" element={<PaymentSuccess />} />
-          <Route path="/payment/cancel" element={<PaymentCancel />} />
+          <Route path="/payment/cancel" element={<PaymentCancel />} /> */}
 
           {/* Legal Routes */}
           <Route path="/terms" element={<Terms />} />
@@ -202,9 +202,9 @@ export default function App() {
           {/* Certificate Routes */}
           <Route path="/certificates/:id" element={<CertificateView />} />
 
-          {/* Profile Routes */}
+          {/* Profile Routes
           <Route path="/profile" element={<UserProfile />} />
-          <Route path="/profile/settings" element={<ProfileSettings />} />
+          <Route path="/profile/settings" element={<ProfileSettings />} /> */}
 
           {/* Help Routes */}
           <Route path="/help" element={<Help />} />
@@ -222,16 +222,16 @@ export default function App() {
           {/* Enrollment Routes */}
           <Route path="/enroll/:courseId" element={<EnrollmentForm />} />
 
-          {/* Project Routes */}
-          <Route path="/projects/:id" element={<ProjectDetail />} />
+          {/* Project Routes
+          <Route path="/projects/:id" element={<ProjectDetail />} /> */}
 
-          {/* Student Routes */}
+          {/* Student Routes
           <Route path="/student/dashboard" element={<Studentdashboard />} />
           <Route path="/student/courses" element={<StudentCourses />} />
           <Route path="/student/progress" element={<StudentProgress />} />
-          <Route path="/student/certificates" element={<StudentCertificates />} />
+          <Route path="/student/certificates" element={<StudentCertificates />} /> */}
 
-          {/* Expert Routes */}
+          {/* Expert Routes
           <Route path="/expert/missions" element={<ExpertMissions />} />
           <Route path="/expert/trainings" element={<ExpertTrainings />} />
           <Route path="/expert/calendar" element={<ExpertCalendar />} />
@@ -247,7 +247,7 @@ export default function App() {
           <Route path="/expert/community" element={<ExpertCommunity />} />
           <Route path="/expert/courses" element={<ExpertCourses />} />
           <Route path="/expert/reviews" element={<ExpertReviews />} />
-          <Route path="/expert/earnings" element={<ExpertEarnings />} />
+          <Route path="/expert/earnings" element={<ExpertEarnings />} /> */}
 
           {/* Error Routes */}
           <Route path="/404" element={<NotFound />} />

@@ -22,14 +22,14 @@ import SelectAccountType from './components/SelectAccountType';
 
 // Admin Pages
 import AdminLogin from './pages/admin/AdminLogin';
-import AdminDashboard from './pages/admin/AdminDashboard';
+import Admindashboard from './pages/admin/Admindashboard';
 import AdminSettings from './pages/admin/AdminSettings';
 import AdminReports from './pages/admin/AdminReports';
 import AdminNotifications from './pages/admin/AdminNotifications';
 import SystemSettings from './pages/admin/SystemSettings';
 
-// Dashboard Pages
-import Dashboard from './pages/Dashboard';
+// dashboard Pages
+import dashboard from './pages/dashboard';
 
 // Service Pages
 import B2B from './pages/services/B2B';
@@ -40,17 +40,17 @@ import IndustryToolkits from './pages/services/details/IndustryToolkits';
 import ChangeManagement from './pages/services/details/ChangeManagement';
 import AITraining from './pages/services/details/AITraining';
 
-// Business Dashboard Pages
-import BusinessTraining from './pages/Dashboard/business/BusinessTraining';
-import TeamManagement from './pages/Dashboard/business/TeamManagement';
-import AITools from './pages/Dashboard/business/AITools';
-import BusinessMetrics from './pages/Dashboard/business/BusinessMetrics';
+// Business dashboard Pages
+import BusinessTraining from './pages/dashboard/business/BusinessTraining';
+import TeamManagement from './pages/dashboard/business/TeamManagement';
+import AITools from './pages/dashboard/business/AITools';
+import BusinessMetrics from './pages/dashboard/business/BusinessMetrics';
 
-// Individual Dashboard Pages
-import MyCourses from './pages/Dashboard/individual/MyCourses';
-import Certifications from './pages/Dashboard/individual/Certifications';
-import LearningPath from './pages/Dashboard/individual/LearningPath';
-import Community from './pages/Dashboard/individual/Community';
+// Individual dashboard Pages
+import MyCourses from './pages/dashboard/individual/MyCourses';
+import Certifications from './pages/dashboard/individual/Certifications';
+import LearningPath from './pages/dashboard/individual/LearningPath';
+import Community from './pages/dashboard/individual/Community';
 
 // Payment and Checkout Pages
 import Checkout from './pages/payment/Checkout';
@@ -94,7 +94,7 @@ import EnrollmentForm from './pages/enrollment/EnrollmentForm';
 import ProjectDetail from './pages/projects/ProjectDetail';
 
 // Student Pages
-import StudentDashboard from './pages/student/StudentDashboard';
+import Studentdashboard from './pages/student/Studentdashboard';
 import StudentCourses from './pages/student/StudentCourses';
 import StudentProgress from './pages/student/StudentProgress';
 import StudentCertificates from './pages/student/StudentCertificates';
@@ -120,9 +120,9 @@ import ExpertEarnings from './pages/expert/ExpertEarnings';
 import NotFound from './pages/error/NotFound';
 import ServerError from './pages/error/ServerError';
 import Maintenance from './pages/error/Maintenance';
-import BusinessDashboard from './components/dashboard/business/BusinessDashboard';
-import IndividualDashboard from './components/dashboard/IndividualDashboard';
-import ExpertDashboard from './components/dashboard/ExpertDashboard';
+import Businessdashboard from './components/dashboard/business/Businessdashboard';
+import Individualdashboard from './components/dashboard/Individualdashboard';
+import Expertdashboard from './components/dashboard/Expertdashboard';
 
 export default function App() {
   return (
@@ -148,18 +148,18 @@ export default function App() {
 
           {/* Admin Routes */}
           <Route path="/admin/login" element={<AdminLogin />} />
-          <Route path="/admin/dashboard" element={<AdminDashboard />} />
+          <Route path="/admin/dashboard" element={<Admindashboard />} />
           <Route path="/admin/settings" element={<AdminSettings />} />
           <Route path="/admin/reports" element={<AdminReports />} />
           <Route path="/admin/notifications" element={<AdminNotifications />} />
           <Route path="/admin/system" element={<SystemSettings />} />
 
-          {/* Dashboard Routes */}
-          <Route path="/dashboard" element={<Dashboard />} />
+          {/* dashboard Routes */}
+          <Route path="/dashboard" element={<dashboard />} />
 
-          <Route path="/dashboard/business" element={<BusinessDashboard />} />
-          <Route path="/dashboard/individual" element={<IndividualDashboard />} />
-          <Route path="/dashboard/expert" element={<ExpertDashboard/>} />
+          <Route path="/dashboard/business" element={<Businessdashboard />} />
+          <Route path="/dashboard/individual" element={<Individualdashboard />} />
+          <Route path="/dashboard/expert" element={<Expertdashboard/>} />
           
           {/* Service Routes */}
           <Route path="/services/b2b" element={<B2B />} />
@@ -174,13 +174,13 @@ export default function App() {
           <Route path="/services/b2c/aitraining" element={<AITraining />} />
           <Route path="/services/b2c/resources" element={<Resources />} />
 
-          {/* Business Dashboard Routes */}
+          {/* Business dashboard Routes */}
           <Route path="/dashboard/training" element={<BusinessTraining />} />
           <Route path="/dashboard/team" element={<TeamManagement />} />
           <Route path="/dashboard/tools" element={<AITools />} />
           <Route path="/dashboard/metrics" element={<BusinessMetrics />} />
 
-          {/* Individual Dashboard Routes */}
+          {/* Individual dashboard Routes */}
           <Route path="/dashboard/courses" element={<MyCourses />} />
           <Route path="/dashboard/certifications" element={<Certifications />} />
           <Route path="/dashboard/progress" element={<LearningPath />} />
@@ -228,7 +228,7 @@ export default function App() {
           <Route path="/projects/:id" element={<ProjectDetail />} />
 
           {/* Student Routes */}
-          <Route path="/student/dashboard" element={<StudentDashboard />} />
+          <Route path="/student/dashboard" element={<Studentdashboard />} />
           <Route path="/student/courses" element={<StudentCourses />} />
           <Route path="/student/progress" element={<StudentProgress />} />
           <Route path="/student/certificates" element={<StudentCertificates />} />

@@ -9,11 +9,11 @@ interface Stat {
   description: string;
 }
 
-interface DashboardStatsProps {
+interface dashboardStatsProps {
   stats: Stat[];
 }
 
-export default function DashboardStats({ stats }: DashboardStatsProps) {
+export default function dashboardStats({ stats }: dashboardStatsProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {stats.map((stat, index) => (

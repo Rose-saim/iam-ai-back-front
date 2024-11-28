@@ -67,7 +67,7 @@ export default function ExpertSupport() {
               <div className="grid md:grid-cols-2 gap-4">
                 {[
                   "Getting Started Guide",
-                  "Expert Dashboard Tutorial",
+                  "Expert dashboard Tutorial",
                   "Course Creation Guide",
                   "Mission Management Guide"
                 ].map((doc, index) => (

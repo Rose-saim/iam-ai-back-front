@@ -8,7 +8,7 @@ import AppleButton from '../../../components/AppleButton';
 const tools = [
   {
     icon: <BarChart2 className="w-8 h-8" />,
-    title: "Analytics Dashboard",
+    title: "Analytics dashboard",
     description: "Real-time insights and performance monitoring for data-driven decisions."
   },
   {

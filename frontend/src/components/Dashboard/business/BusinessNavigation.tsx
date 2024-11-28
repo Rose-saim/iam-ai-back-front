@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 
 const navigationItems = [
-  { icon: Home, label: 'Dashboard', path: '/dashboard' },
+  { icon: Home, label: 'dashboard', path: '/dashboard' },
   { icon: Users, label: 'Consultants', path: '/dashboard/consultants' },
   { icon: Target, label: 'Missions', path: '/dashboard/missions' },
   { icon: BookOpen, label: 'Courses', path: '/dashboard/courses' },

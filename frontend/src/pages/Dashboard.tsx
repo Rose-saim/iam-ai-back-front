@@ -1,30 +1,30 @@
 import React from 'react';
 import { useAuth } from '../lib/auth/context';
-import DashboardLayout from '../components/dashboard/DashboardLayout';
-import AdminDashboard from '../pages/admin/AdminDashboard';
-import BusinessDashboard from '../components/dashboard/BusinessDashboard';
-import IndividualDashboard from '../components/dashboard/IndividualDashboard';
-import ExpertDashboard from '../components/dashboard/ExpertDashboard';
+import dashboardLayout from '../components/dashboard/dashboardLayout';
+import Admindashboard from '../pages/admin/Admindashboard';
+import Businessdashboard from '../components/dashboard/Businessdashboard';
+import Individualdashboard from '../components/dashboard/Individualdashboard';
+import Expertdashboard from '../components/dashboard/Expertdashboard';
 
-export default function Dashboard() {
+export default function dashboard() {
   const { user } = useAuth();
 
   if (!user) {
     return null;
   }
 
-  const getDashboardContent = () => {
+  const getdashboardContent = () => {
     if (user.isAdmin) {
-      return <AdminDashboard />;
+      return <Admindashboard />;
     }
 
     switch (user.role) {
       case 'B2B':
-        return <BusinessDashboard />;
+        return <Businessdashboard />;
       case 'B2C':
-        return <IndividualDashboard />;
+        return <Individualdashboard />;
       case 'expert':
-        return <ExpertDashboard />;
+        return <Expertdashboard />;
       default:
         return null;
     }
@@ -32,7 +32,7 @@ export default function Dashboard() {
 
   const getTitle = () => {
     if (user.isAdmin) {
-      return 'Admin Dashboard';
+      return 'Admin dashboard';
     }
     if (user.accountType === 'expert') {
       return `Welcome, ${user.fullName}`;
@@ -51,11 +51,11 @@ export default function Dashboard() {
   };
 
   return (
-    <DashboardLayout
+    <dashboardLayout
       title={getTitle()}
       subtitle={getSubtitle()}
     >
-      {getDashboardContent()}
-    </DashboardLayout>
+      {getdashboardContent()}
+    </dashboardLayout>
   );
 }

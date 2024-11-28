@@ -6,7 +6,7 @@ import RegisterBusiness from '../pages/auth/RegisterBusiness';
 import RegisterIndividual from '../pages/auth/RegisterIndividual';
 import RegisterPublicService from '../pages/auth/RegisterPublicService';
 import Login from '../pages/auth/Login';
-import Dashboard from '../pages/Dashboard';
+import dashboard from '../pages/dashboard';
 import Services from '../pages/Services';
 import Resources from '../pages/Resources';
 import About from '../pages/About';
@@ -20,7 +20,7 @@ const AppRoutes = () => {
       <Route path="/register-individual" element={<RegisterIndividual />} />
       <Route path="/register-public-service" element={<RegisterPublicService />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/dashboard" element={<dashboard />} />
       <Route path="/services" element={<Services />} />
       <Route path="/resources" element={<Resources />} />
       <Route path="/about" element={<About />} />

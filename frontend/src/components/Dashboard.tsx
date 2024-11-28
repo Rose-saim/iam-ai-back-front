@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../lib/auth/context';
-import BusinessDashboard from './dashboard/BusinessDashboard';
-import IndividualDashboard from './dashboard/IndividualDashboard';
-import ExpertDashboard from './dashboard/ExpertDashboard';
-import AdminDashboard from '../pages/admin/AdminDashboard';
+import Businessdashboard from './dashboard/Businessdashboard';
+import Individualdashboard from './dashboard/Individualdashboard';
+import Expertdashboard from './dashboard/Expertdashboard';
+import Admindashboard from '../pages/admin/Admindashboard';
 import { useNavigate } from 'react-router-dom';
 
-const Dashboard = () => {
+const dashboard = () => {
   const { user } = useAuth();
   const [selectedType, setSelectedType] = useState<string | null>(null);
   const navigate = useNavigate();
@@ -27,26 +27,26 @@ const Dashboard = () => {
       return (
         <div className="dashboard-selection">
           <h2>Select your dashboard type</h2>
-          <button onClick={() => setSelectedType('B2B')}>Business Dashboard (B2B)</button>
-          <button onClick={() => setSelectedType('B2C')}>Individual Dashboard (B2C)</button>
-          <button onClick={() => setSelectedType('expert')}>Expert Dashboard</button>
+          <button onClick={() => setSelectedType('B2B')}>Business dashboard (B2B)</button>
+          <button onClick={() => setSelectedType('B2C')}>Individual dashboard (B2C)</button>
+          <button onClick={() => setSelectedType('expert')}>Expert dashboard</button>
         </div>
       );
     }
-  const getDashboardContent = () => {
+  const getdashboardContent = () => {
     const accountType = user.accountType || selectedType;
 
     if (user.isAdmin) {
-      return <AdminDashboard />;
+      return <Admindashboard />;
     }
 
     switch (accountType) {
       case 'B2B':
-        return <BusinessDashboard />;
+        return <Businessdashboard />;
       case 'B2C':
-        return <IndividualDashboard />;
+        return <Individualdashboard />;
       case 'expert':
-        return <ExpertDashboard />;
+        return <Expertdashboard />;
       default:
         return <div>Error: Invalid account type</div>;
     }
@@ -54,8 +54,8 @@ const Dashboard = () => {
   
   return (
     <div>
-      {getDashboardContent()}
+      {getdashboardContent()}
     </div>
   );
 };
-export default Dashboard;
+export default dashboard;

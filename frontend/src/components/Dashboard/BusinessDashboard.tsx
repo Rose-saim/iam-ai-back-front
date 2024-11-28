@@ -21,7 +21,7 @@ import {
 
 // Import components
 import QuickStats from './business/QuickStats';
-import DashboardCharts from './business/DashboardCharts';
+import dashboardCharts from './business/dashboardCharts';
 import BusinessNotifications from './business/BusinessNotifications';
 import BusinessQuickActions from './business/BusinessQuickActions';
 import ROICalculator from './business/ROICalculator';
@@ -46,7 +46,7 @@ ChartJS.register(
   Legend
 );
 
-export default function BusinessDashboard() {
+export default function Businessdashboard() {
   // Stats data
   const stats = {
     employees: 45,
@@ -126,7 +126,7 @@ export default function BusinessDashboard() {
         {/* Header */}
         <div className="flex justify-between items-start mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">Business Dashboard</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Business dashboard</h1>
             <p className="mt-1 text-sm text-gray-500">
               Welcome back! Here's an overview of your AI implementation progress
             </p>
@@ -151,7 +151,7 @@ export default function BusinessDashboard() {
         {/* Charts */}
         <div className="mt-8">
           <h2 className="text-lg font-medium text-gray-900 mb-4">Performance Overview</h2>
-          <DashboardCharts
+          <dashboardCharts
             missionData={missionData}
             trainingData={trainingData}
             performanceData={performanceData}

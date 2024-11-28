@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { LucideIcon } from 'lucide-react';
 
-interface DashboardCardProps {
+interface dashboardCardProps {
   title: string;
   value: string | number;
   icon: LucideIcon;
@@ -10,13 +10,13 @@ interface DashboardCardProps {
   color?: string;
 }
 
-export default function DashboardCard({
+export default function dashboardCard({
   title,
   value,
   icon: Icon,
   description,
   color = 'blue'
-}: DashboardCardProps) {
+}: dashboardCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}

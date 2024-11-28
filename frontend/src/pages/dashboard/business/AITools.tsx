@@ -4,7 +4,7 @@ import { Settings, Play, AlertCircle, Check } from 'lucide-react';
 export default function AITools() {
   const tools = [
     {
-      name: "AI Analytics Dashboard",
+      name: "AI Analytics dashboard",
       description: "Real-time data analysis and visualization",
       status: "Active",
       lastUpdated: "2 hours ago",

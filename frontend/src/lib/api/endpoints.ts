@@ -52,7 +52,7 @@ export const endpoints = {
   },
 
   analytics: {
-    getDashboard: () => api.get('/analytics/dashboard'),
+    getdashboard: () => api.get('/analytics/dashboard'),
     getReports: () => api.get('/analytics/reports'),
     exportReport: (type: string) => api.get(`/analytics/export/${type}`, { responseType: 'blob' })
   }

@@ -25,21 +25,21 @@ export default function Navbar() {
   ];
 
   const expertMenuItems = [
-    { title: 'Dashboard', path: '/expert/dashboard' },
+    { title: 'dashboard', path: '/expert/dashboard' },
     { title: 'Missions', path: '/expert/missions' },
     { title: 'Analytics', path: '/expert/analytics' },
     { title: 'Profile', path: '/expert/profile' },
   ];
 
   const b2bMenuItems = [
-    { title: 'Dashboard', path: '/b2b/dashboard' },
+    { title: 'dashboard', path: '/b2b/dashboard' },
     { title: 'Solutions', path: '/b2b/solutions' },
     { title: 'Reports', path: '/b2b/reports' },
     { title: 'Profile', path: '/b2b/profile' },
   ];
 
   const b2cMenuItems = [
-    { title: 'Dashboard', path: '/b2c/dashboard' },
+    { title: 'dashboard', path: '/b2c/dashboard' },
     { title: 'Courses', path: '/b2c/courses' },
     { title: 'Profile', path: '/b2c/profile' },
   ];

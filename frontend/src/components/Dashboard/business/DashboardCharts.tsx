@@ -26,7 +26,7 @@ ChartJS.register(
   Legend
 );
 
-interface DashboardChartsProps {
+interface dashboardChartsProps {
   missionData: {
     labels: string[];
     datasets: any[];
@@ -41,7 +41,7 @@ interface DashboardChartsProps {
   };
 }
 
-export default function DashboardCharts({ missionData, trainingData, performanceData }: DashboardChartsProps) {
+export default function dashboardCharts({ missionData, trainingData, performanceData }: dashboardChartsProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div className="bg-white p-6 rounded-xl shadow-sm">

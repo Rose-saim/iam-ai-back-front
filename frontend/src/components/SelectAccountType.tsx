@@ -90,19 +90,19 @@ const SelectAccountType = () => {
           onClick={() => setAccountType('B2B')}
           className={`btn ${role === 'B2B' ? 'btn-selected' : ''}`}
         >
-          Business Dashboard (B2B)
+          Business dashboard (B2B)
         </button>
         <button
           onClick={() => setAccountType('B2C')}
           className={`btn ${role === 'B2C' ? 'btn-selected' : ''}`}
         >
-          Individual Dashboard (B2C)
+          Individual dashboard (B2C)
         </button>
         <button
           onClick={() => setAccountType('expert')}
           className={`btn ${role === 'expert' ? 'btn-selected' : ''}`}
         >
-          Expert Dashboard
+          Expert dashboard
         </button>
       </div>
       <button onClick={handleSelection} className="btn-primary mt-6">

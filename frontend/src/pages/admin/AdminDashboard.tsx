@@ -4,7 +4,7 @@ import { Users, BookOpen, Settings, BarChart2, Shield } from 'lucide-react';
 import { useAuth } from '../../lib/auth/context';
 import AdminQuickActions from '../../components/dashboard/AdminQuickActions';
 
-export default function AdminDashboard() {
+export default function Admindashboard() {
   const { user } = useAuth();
   const navigate = useNavigate();
 
@@ -45,7 +45,7 @@ export default function AdminDashboard() {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Admin Dashboard</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Admin dashboard</h1>
           <p className="mt-1 text-sm text-gray-500">
             Manage your platform and monitor key metrics
           </p>

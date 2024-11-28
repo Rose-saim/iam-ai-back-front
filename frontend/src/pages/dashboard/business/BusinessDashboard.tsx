@@ -32,7 +32,7 @@ ChartJS.register(
   Legend
 );
 
-export default function BusinessDashboard() {
+export default function Businessdashboard() {
   // KPI Data
   const kpiData = {
     trainingCompletion: 78,
@@ -102,7 +102,7 @@ export default function BusinessDashboard() {
         {/* Header */}
         <div className="flex justify-between items-start mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">Business Dashboard</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Business dashboard</h1>
             <p className="mt-1 text-sm text-gray-500">
               Welcome back! Here's an overview of your AI implementation progress
             </p>

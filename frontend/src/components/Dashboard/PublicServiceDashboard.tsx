@@ -2,10 +2,10 @@ import React from 'react';
 import { Building2, Users, FileText, BarChart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export default function PublicServiceDashboard() {
+export default function PublicServicedashboard() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Public Service Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-8">Public Service dashboard</h1>
 
       {/* Quick Stats */}
       <div className="grid md:grid-cols-4 gap-6 mb-8">

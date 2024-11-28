@@ -17,7 +17,7 @@ import SkillsPortfolio from '../../../components/dashboard/individual/SkillsPort
 import CommunityFeed from '../../../components/dashboard/individual/CommunityFeed';
 import JobOpportunities from '../../../components/dashboard/individual/JobOpportunities';
 
-export default function IndividualDashboard() {
+export default function Individualdashboard() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showFilters, setShowFilters] = useState(false);
   const [filters, setFilters] = useState({
@@ -46,7 +46,7 @@ export default function IndividualDashboard() {
         {/* Header */}
         <div className="flex justify-between items-start mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">My Learning Dashboard</h1>
+            <h1 className="text-3xl font-bold text-gray-900">My Learning dashboard</h1>
             <p className="mt-1 text-sm text-gray-500">
               Track your progress and continue your AI learning journey
             </p>

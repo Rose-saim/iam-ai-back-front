@@ -51,7 +51,7 @@ export const API_ROUTES = {
 
   // Analytics
   ANALYTICS: {
-    DASHBOARD: '/analytics/dashboard',
+    dashboard: '/analytics/dashboard',
     REPORTS: '/analytics/reports',
     EXPORT: '/analytics/export',
   },

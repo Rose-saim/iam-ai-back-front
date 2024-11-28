@@ -14,7 +14,7 @@ import AITrends from './individual/AITrends';
 import RecommendedCourses from './individual/RecommendedCourses';
 import Achievements from './individual/Achievements';
 
-export default function IndividualDashboard() {
+export default function Individualdashboard() {
   // Progress data for charts
   const progressData = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
@@ -32,7 +32,7 @@ export default function IndividualDashboard() {
         {/* Header */}
         <div className="flex justify-between items-start mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">My Learning Dashboard</h1>
+            <h1 className="text-3xl font-bold text-gray-900">My Learning dashboard</h1>
             <p className="mt-1 text-sm text-gray-500">
               Track your progress and continue your AI learning journey
             </p>

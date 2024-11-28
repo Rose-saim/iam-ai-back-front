@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, Award, Target, Clock, ArrowRight } from 'lucide-react';
 
-export default function StudentDashboard() {
+export default function Studentdashboard() {
   const stats = [
     {
       title: "Courses in Progress",
@@ -70,7 +70,7 @@ export default function StudentDashboard() {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Student Dashboard</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Student dashboard</h1>
           <p className="mt-1 text-sm text-gray-500">
             Track your learning progress and manage your courses
           </p>

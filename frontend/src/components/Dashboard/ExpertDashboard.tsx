@@ -6,7 +6,7 @@ import {
   Settings, FileText, Star, Users2
 } from 'lucide-react';
 
-export default function ExpertDashboard() {
+export default function Expertdashboard() {
   const stats = [
     {
       title: "Active Courses",

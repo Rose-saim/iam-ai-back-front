@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { GraduationCap, Target, Award, Users } from 'lucide-react';
-import ContactForm from '../../../components/ContactForm';
+import {ContactForm} from '../../../components/ContactForm';
 
 const features = [
   {

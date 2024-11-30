@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Building2, BarChart2, Users2, Clock } from 'lucide-react';
-import ContactForm from '../../../components/ContactForm';
+import {ContactForm} from '../../../components/ContactForm';
 
 const features = [
   {

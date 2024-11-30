@@ -20,6 +20,7 @@ export default function Navbar() {
   const generalMenuItems = [
     { title: 'Entreprises', path: '/services/b2b' },
     { title: 'Particuliers', path: '/services/b2c' },
+    { title: 'Public', path: '/services/b2g' },
     { title: 'Courses', path: '/courses' },
     { title: 'About', path: '/about' },
   ];

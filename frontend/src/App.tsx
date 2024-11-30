@@ -32,11 +32,18 @@ import SystemSettings from './pages/admin/SystemSettings';
 // Service Pages
 import B2B from './pages/services/B2B';
 import B2C from './pages/services/B2C';
+import B2G from './pages/services/B2G';
+
 import B2BLearnMore from './pages/services/learn-more/B2BLearnMore';
 import B2CLearnMore from './pages/services/learn-more/B2CLearnMore';
+import B2GLearnMore from './pages/services/learn-more/B2GLearnMore';
+
 import IndustryToolkits from './pages/services/details/IndustryToolkits';
 import ChangeManagement from './pages/services/details/ChangeManagement';
 import AITraining from './pages/services/details/AITraining';
+import MunicipalServices from './pages/services/details/MunicipalServices';
+import EmploymentTraining from './pages/services/details/EmploymentTraining';
+import AdvisoryServices from './pages/services/details/AdvisoryServices';
 
 // // Business dashboard Pages
 // import BusinessTraining from './pages/dashboard/business/BusinessTraining';
@@ -162,6 +169,7 @@ export default function App() {
           {/* Service Routes */}
           <Route path="/services/b2b" element={<B2B />} />
           <Route path="/services/b2c" element={<B2C />} />
+          <Route path="/services/b2g" element={<B2G />} />
 
           {/* Learn More Routes */}
           <Route path="/services/b2b/learn-more" element={<B2BLearnMore />} />
@@ -169,8 +177,13 @@ export default function App() {
           <Route path="/services/b2b/changemanagement" element={<ChangeManagement />} />
           
           <Route path="/services/b2c/learn-more" element={<B2CLearnMore />} />
-          <Route path="/services/b2c/aitraining" element={<AITraining />} />
+          <Route path="/services/b2c/industry-toolkits" element={<IndustryToolkits />} />
           <Route path="/services/b2c/resources" element={<Resources />} />
+
+          <Route path="/services/b2g/learn-more" element={<B2GLearnMore />} />
+          <Route path="/services/b2g/details/municipal-services" element={<MunicipalServices />} />
+          <Route path="/services/b2g/details/employment-training" element={<EmploymentTraining />} />
+          <Route path="/services/b2g/details/advisory-services" element={<AdvisoryServices />} />
 
           {/* Business dashboard Routes
           <Route path="/dashboard/training" element={<BusinessTraining />} />
